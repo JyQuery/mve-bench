@@ -1,0 +1,15 @@
+[logging]
+dump-workload = false
+
+[game]
+host = "HOST_HERE"
+port = 25565
+
+[experiment]
+id = 10
+[experiment.params]
+port = "7000"
+bots = 50
+clientcount = 2
+joininterval = 10
+duration = 600

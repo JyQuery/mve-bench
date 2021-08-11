@@ -1,0 +1,16 @@
+{
+  "gateway": {
+    "ip": "0.0.0.0",
+    "port": 25565,
+    "policy": "simple",
+    "spawnx": 6,
+    "spawnz": 105,
+    "motd": "Region Based Opencraft Gateway",
+    "functionEndpoint": "https://opencraft-az.azurewebsites.net/api/playerlookup"
+  },
+  "servers": {
+    "MVE_SERVER_IP": {
+      "port": 25565
+    }
+  }
+}

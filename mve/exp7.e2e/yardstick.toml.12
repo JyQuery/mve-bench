@@ -1,0 +1,17 @@
+[logging]
+dump-workload = false
+
+[game]
+host = "HOST_HERE"
+port = 25565
+
+
+[experiment]
+id = 12
+[experiment.params]
+port = "7000"
+bots = 20
+joininterval = 10
+duration = 600
+gmuser = "Opencrafter_01"
+gminterval = 5

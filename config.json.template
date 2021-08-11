@@ -1,0 +1,45 @@
+{
+  "benchmark": {
+    "iteration": 9,
+    "mvepath": "./mve",
+    "resultpath": "./result",
+    "clientinterval": 5,
+    "ysconfig": 0,
+    "delay": 90,
+    "pingtarget": "google.com"
+  },
+  "benchmarkserver": {
+    "host": "BENCHMARK_SERVER_IP",
+    "port": 33666,
+    "timeout": 90
+  },
+  "functions": {
+    "PopulateAzure": {
+      "applicationId":"APPLICATION_ID",
+      "apiKey": "API_KEY"
+    }
+  },
+  "servers": {
+    "MVE_SERVER_IP": {
+      "port": 22,
+      "username": "root",
+      "password": "password"
+    }
+  },
+  "clients": {
+    "MVE_CLIENT_IP": {
+      "port": 22,
+      "username": "root",
+      "password": "password",
+      "server": "MVE_SERVER_IP or MVE_GATEWAY_IP"
+    }
+  },
+ "gateways": {
+   "GATEWAY_IP": {
+      "port": 22,
+      "username": "root",
+      "password": "password",
+      "comment": "Comment this section to disable gateway"
+   }
+ }
+}
